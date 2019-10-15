@@ -1,16 +1,18 @@
-/*
-Data types :
-undefined,null,boolean,string,symbol,number,and object
-*/
-
-//
-
-let a ;
-let b = 3;
-
-a = 5;
-b= a ;
+// Add(+) ,difference(-),product(*),remainder(%)
 
 
-console.log(a);
-console.log(b);
+//sum 
+const sum = 10 + 2 ;
+console.log(sum);
+
+//difference
+const difference = 10 - 2 ;
+console.log(difference);
+
+//product
+const product = 10 * 2 ;
+console.log(product);
+
+//remainder
+const remainder = 10 % 3 ;
+console.log(remainder);
