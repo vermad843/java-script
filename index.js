@@ -16,3 +16,7 @@ console.log(product);
 //remainder
 const remainder = 10 % 3 ;
 console.log(remainder);
+
+//quotient
+const quotient = 10 / 2 ;
+console.log(quotient);
