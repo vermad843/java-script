@@ -1,22 +1,9 @@
-// Add(+) ,difference(-),product(*),remainder(%)
+//Increment(++) and decrement(--) operator 
+
+let num =  45;
+num++;
+console.log(num);
 
 
-//sum 
-const sum = 10 + 2 ;
-console.log(sum);
-
-//difference
-const difference = 10 - 2 ;
-console.log(difference);
-
-//product
-const product = 10 * 2 ;
-console.log(product);
-
-//remainder
-const remainder = 10 % 3 ;
-console.log(remainder);
-
-//quotient
-const quotient = 10 / 2 ;
-console.log(quotient);
+num--;
+console.log(num);
