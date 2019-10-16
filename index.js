@@ -1,24 +1,20 @@
+//finding the length of a string 
+
+let firstNameLength = 0;
+let firstName = "vishnu";
+
+firstNameLength = firstName.length;
+console.log(firstNameLength);
 
 
-let firstName = "Vishnu";
-let lastName = "Verma";
+//lastAlphabet
+
+let lastAlphabet = firstName[firstName.length -1];
+console.log(lastAlphabet);
 
 
-let myName = firstName + ' ' + lastName;
-console.log(myName);
 
+//particular alphabet :
 
-//template literal
-
-let fullName = `${firstName} ${lastName}`;
-console.log(fullName);
-
-
-let ourStr = "vishnu";
-ourStr+=" verma";
-console.log(ourStr);
-
-
-let ourName = "awesome";
-let ourArr = " I am " + ourName;
-console.log(ourArr);
+let alphabet = firstName[2];
+console.log(alphabet);
