@@ -1,27 +1,19 @@
-/*
-push : adding at the end, 
-unshift : adding at the front, 
-pop : removing from the end,
-shift :  removing from front
-*/
+//console.log inside the function:
 
-//push 
-let myArr = [1,2,3];
-myArr.push(4);
-console.log(myArr);
+function helloWorld() {
+    console.log("Hello World!!");
+}
+
+helloWorld();
 
 
-//unshift
-myArr.unshift(4);
-console.log(myArr);
+//console.log outside the function:
 
+function sum(a , b ) {
+  let output= "";
+  output+= a + b ;
 
-//pop
-myArr.pop();
-console.log(myArr);
+  return output
+}
 
-
-//shift
-myArr.shift();
-console.log(myArr);
-
+console.log(sum(2,5));
