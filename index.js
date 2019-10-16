@@ -1,20 +1,10 @@
-//finding the length of a string 
+function wordBlanks(myNoun,myAdjective,myVerb,myAdverb) {
+    let result = "";
+     result+= "the " + myAdjective +' ' + myNoun+ ' ' +myVerb + ' ' + myAdverb;
+    return result;
+}
 
-let firstNameLength = 0;
-let firstName = "vishnu";
-
-firstNameLength = firstName.length;
-console.log(firstNameLength);
-
-
-//lastAlphabet
-
-let lastAlphabet = firstName[firstName.length -1];
-console.log(lastAlphabet);
+console.log(wordBlanks("dog","big","ran","quickly"));
 
 
 
-//particular alphabet :
-
-let alphabet = firstName[2];
-console.log(alphabet);
