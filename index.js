@@ -1,11 +1,12 @@
-//Boolean  
+// difference between '==' and '===' 
+// ===   10 = '10' => not equal;
 
-function trueOrFalse(isItTrue) {
-  if(isItTrue) {
-    return " yes it is true";
+
+function compareEquality(a , b) {
+  if(a == b) {
+    return " equal";
   }
-  return "no, it's false";
+  return " not Equal";
 }
 
-console.log(trueOrFalse(true));
-console.log(trueOrFalse(false));
+console.log(compareEquality(10, '10'));
