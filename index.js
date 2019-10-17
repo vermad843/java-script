@@ -1,19 +1,14 @@
-//console.log inside the function:
+//global variable : 
 
-function helloWorld() {
-    console.log("Hello World!!");
+// var inside the function has given priority then global var
+
+let outerWear = "T-Shirt";
+
+function myOutfit() {
+  let outerWear = "sweater"; 
+  
+  return outerWear;
 }
 
-helloWorld();
-
-
-//console.log outside the function:
-
-function sum(a , b ) {
-  let output= "";
-  output+= a + b ;
-
-  return output
-}
-
-console.log(sum(2,5));
+console.log(myOutfit());
+console.log(outerWear);
