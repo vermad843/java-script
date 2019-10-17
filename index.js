@@ -1,14 +1,11 @@
-//global variable : 
+//Boolean  
 
-// var inside the function has given priority then global var
-
-let outerWear = "T-Shirt";
-
-function myOutfit() {
-  let outerWear = "sweater"; 
-  
-  return outerWear;
+function trueOrFalse(isItTrue) {
+  if(isItTrue) {
+    return " yes it is true";
+  }
+  return "no, it's false";
 }
 
-console.log(myOutfit());
-console.log(outerWear);
+console.log(trueOrFalse(true));
+console.log(trueOrFalse(false));
