@@ -1,12 +1,10 @@
-// while loop 
+//for loop
 
 
-let myArray = [];
+let ourArray = [];
 
-let i = 0;
-while(i < 5) {
-  myArray.push(i);
-  i++ ;
+for (let i = 0; i < 5; i++) {
+   ourArray.push(i);
 }
 
-console.log(myArray);
+console.log(ourArray);
