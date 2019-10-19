@@ -1,14 +1,8 @@
-//do while 
+//Math.random(random number between 0 to 1);
 
 
+function randomFraction() {
+  return Math.random();
+}
 
-let myArray = [];
-let i = 10;
-
-do {
-  myArray.push(i);
-  i++;
-}while(i<20)
-
-
-console.log(myArray)
+console.log(randomFraction());
