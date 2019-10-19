@@ -1,10 +1,16 @@
-//for loop
+//nested for loops ;
 
+let grid = [];
 
-let ourArray = [];
-
-for (let i = 0; i < 5; i++) {
-   ourArray.push(i);
+for (let row = 0; row < 20; row++) {
+    let cols = [];
+  for (let col = 0; col < 20; col++) {
+     cols.push({
+       row,
+       col
+     })
+  }  
+  grid.push(cols);
 }
 
-console.log(ourArray);
+console.log(grid);
