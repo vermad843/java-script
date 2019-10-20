@@ -1,8 +1,8 @@
-//Math.random(random number between 0 to 1);
+//generate random whole numbers : 
 
 
-function randomFraction() {
-  return Math.random();
+function randomWholeNum() {
+  return Math.floor(Math.random() * 20);
 }
 
-console.log(randomFraction());
+console.log(randomWholeNum());
