@@ -1,8 +1,7 @@
-//generate random whole numbers : 
+//random numbers using params
 
-
-function randomWholeNum() {
-  return Math.floor(Math.random() * 20);
+function ourRandomRange(min, max) {
+  return Math.floor(Math.random() * (max - min+1)) + min;
 }
 
-console.log(randomWholeNum());
+console.log(ourRandomRange(1,98));
