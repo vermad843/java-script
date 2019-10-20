@@ -1,7 +1,8 @@
-//convert string to number(use parseInt)
+//use of ternary operator :
 
-function convertToInteger(str) {
-  return parseInt(str);
+function checkEqual(a,b) {
+  return a == b ? true : false;
 }
 
-console.log(convertToInteger('56'));
+console.log(checkEqual(1,1))
+console.log(checkEqual(1,2))
