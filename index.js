@@ -1,7 +1,7 @@
-//random numbers using params
+//convert string to number(use parseInt)
 
-function ourRandomRange(min, max) {
-  return Math.floor(Math.random() * (max - min+1)) + min;
+function convertToInteger(str) {
+  return parseInt(str);
 }
 
-console.log(ourRandomRange(1,98));
+console.log(convertToInteger('56'));
