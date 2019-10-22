@@ -1,17 +1,15 @@
-
-//use of some()
-
-
-var array = [1, 2, 3, 4, 5];
-
-var even = function (element) {
-  // checks whether an element is even
-  return element % 2 === 0;
-};
-
-console.log(even(2));
+//use of indexOf();
+//This method returns -1 if the value to search for never occurs.
+//for finding the index of anything
 
 
+var str = "Hello world, welcome to the universe.";
+var n = str.indexOf("e");
 
-console.log(array.some(even));
-// expected output: true
+console.log(n)
+
+
+var str = "Hello world, welcome to the universe.";
+var n = str.indexOf("1");
+
+console.log(n);
