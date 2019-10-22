@@ -1,8 +1,17 @@
-//use of ternary operator :
 
-function checkEqual(a,b) {
-  return a == b ? true : false;
-}
+//use of some()
 
-console.log(checkEqual(1,1))
-console.log(checkEqual(1,2))
+
+var array = [1, 2, 3, 4, 5];
+
+var even = function (element) {
+  // checks whether an element is even
+  return element % 2 === 0;
+};
+
+console.log(even(2));
+
+
+
+console.log(array.some(even));
+// expected output: true
