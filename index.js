@@ -1,16 +1,11 @@
-//use of set.prototype.has 
-//it gives boolean values 
+//something
 
-const set1 = new Set([1, 2, 3, 4, 5]);
 
-console.log(set1.has(1));
-// expected output: true
+let n = .1
 
-console.log(set1.has(5));
-// expected output: true
+for(let i =0; i <= 10000; i++) {
+    n = n+ 0.1;
+}
 
-console.log(set1.has(6));
-// expected output: false
-
-console.log(set1.has(0));
-
+console.log(n);
+//expected output 1000.2000000001589
