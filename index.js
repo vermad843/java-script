@@ -1,13 +1,16 @@
-//array1 satisfying the condition of isBelowThreshold
+//use of set.prototype.has 
+//it gives boolean values 
 
+const set1 = new Set([1, 2, 3, 4, 5]);
 
+console.log(set1.has(1));
+// expected output: true
 
-function isBelowThreshold(currentValue) {
-    return currentValue < 40;
-  }
-  
-  var array1 = [1, 30, 39, 29, 10, 13];
-  
-  console.log(array1.every(isBelowThreshold));
-  // expected output: true
-  
+console.log(set1.has(5));
+// expected output: true
+
+console.log(set1.has(6));
+// expected output: false
+
+console.log(set1.has(0));
+
