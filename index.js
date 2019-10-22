@@ -1,15 +1,13 @@
-//use of indexOf();
-//This method returns -1 if the value to search for never occurs.
-//for finding the index of anything
+//array1 satisfying the condition of isBelowThreshold
 
 
-var str = "Hello world, welcome to the universe.";
-var n = str.indexOf("e");
 
-console.log(n)
-
-
-var str = "Hello world, welcome to the universe.";
-var n = str.indexOf("1");
-
-console.log(n);
+function isBelowThreshold(currentValue) {
+    return currentValue < 40;
+  }
+  
+  var array1 = [1, 30, 39, 29, 10, 13];
+  
+  console.log(array1.every(isBelowThreshold));
+  // expected output: true
+  
