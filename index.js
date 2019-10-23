@@ -1,11 +1,36 @@
-//something
+//use of find()
+//it gives a single value which is nearest in case of sorted array.
+// array should be sorted in a ascending order
+
+//Array is not sorted
+
+let array1 = [5, 12, 8, 130, 44];
+
+let found = array1.find(function(element) {
+  return element > 7;
+});
 
 
-let n = .1
+console.log(found);
+// expected output: 12
 
-for(let i =0; i <= 10000; i++) {
-    n = n+ 0.1;
-}
 
-console.log(n);
-//expected output 1000.2000000001589
+
+
+//sorted Array :
+
+let array2 = [5, 8, 12, 44, 130]; 
+
+let found2 = array2.find(function(element) {
+    return element > 7 ;
+  });
+
+
+console.log(found2);
+// expected output: 8
+
+
+
+//find will find the single  element nearest by the condition
+//which is imposed on him if the array is sorted
+
