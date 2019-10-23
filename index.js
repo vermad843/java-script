@@ -1,36 +1,44 @@
-//use of find()
-//it gives a single value which is nearest in case of sorted array.
-// array should be sorted in a ascending order
-
-//Array is not sorted
+// sorting the Array(Ascending)
 
 let array1 = [5, 12, 8, 130, 44];
 
-let found = array1.find(function(element) {
-  return element > 7;
+array1.sort(function(a, b) {
+    return a - b 
 });
 
-
-console.log(found);
-// expected output: 12
-
+console.log(array1);
+//expected output [5,8,12,44,130]
 
 
 
-//sorted Array :
+// sorting the Array(Descending)
 
-let array2 = [5, 8, 12, 44, 130]; 
-
-let found2 = array2.find(function(element) {
-    return element > 7 ;
-  });
+let array2 = [5, 12, 8, 130, 44];
 
 
-console.log(found2);
-// expected output: 8
+array2.sort(function(a, b) {
+    return b - a  
+});
+
+console.log(array2);
+//expected output [130,44,12,8,5]
 
 
 
-//find will find the single  element nearest by the condition
-//which is imposed on him if the array is sorted
+
+//sorting alphabetically
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.sort();   
+
+console.log(fruits);
+
+
+//reversing the sorted Array
+fruits.reverse();
+
+console.log(fruits)
+
+
+
+
 
