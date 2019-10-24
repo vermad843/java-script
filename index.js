@@ -1,6 +1,6 @@
-// use of toUpperCase()
+// use of toLowerCase()
 
 let sentence = 'Cristiano Ronaldo';
 
-console.log(sentence.toUpperCase());
-// CRISTIANO RONALDO
+console.log(sentence.toLowerCase());
+// cristiano ronaldo
