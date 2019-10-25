@@ -1,17 +1,18 @@
-// use of **   : 2 to the power 5 ;
-// Math.pow(number, 5)
-
-const betterNumbers = [2, 13, 42];
-// const squaredNumber = betterNumbers.map((number) => {
-//     return number**5; 
-// });
+// use of includes('');
 
 
-const squaredNumber = betterNumbers.map(number => {
-  return Math.pow(number,5);
+const generes = ['jazz', 
+                 'metal-core',
+                 'punk',
+                 'ska-core',
+                 'vaporwave',
+                 'country-core'];
+
+const endWithCore = generes.filter((gener) => {
+  return gener.includes('-core');
 });
 
-console.log(squaredNumber);
+console.log(endWithCore);
 
-
+// [ 'metal-core', 'ska-core', 'country-core' ]
 
