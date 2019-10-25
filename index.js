@@ -1,6 +1,22 @@
-// use of toLowerCase()
+// use of subString()
+//firstThree letters of each day : 
 
-let sentence = 'Cristiano Ronaldo';
+const days = [
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday'
+];
 
-console.log(sentence.toLowerCase());
-// cristiano ronaldo
+
+let firstThreeletters = days.map((day) => {
+    return day.substring(0, 3);
+})
+
+console.log(firstThreeletters);
+
+// [ 'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat' ] 
+
