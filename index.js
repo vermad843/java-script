@@ -1,5 +1,4 @@
-// use of subString()
-//firstThree letters of each day : 
+// use of charAt()
 
 const days = [
     'Sunday',
@@ -12,11 +11,11 @@ const days = [
 ];
 
 
-let firstThreeletters = days.map((day) => {
-    return day.substring(0, 3);
-})
+dayStartWithT = days.filter((day) => {
+    return day.charAt(0) == 'T';
+  });
 
-console.log(firstThreeletters);
+console.log(dayStartWithT);
 
-// [ 'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat' ] 
 
+// [ 'Tuesday', 'Thursday' ]
