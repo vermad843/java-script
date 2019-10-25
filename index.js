@@ -1,21 +1,15 @@
-// use of charAt()
-
-const days = [
-    'Sunday',
-    'Monday',
-    'Tuesday',
-    'Wednesday',
-    'Thursday',
-    'Friday',
-    'Saturday'
-];
+//hasOwnProperty() : it is giving a boolean value:
 
 
-dayStartWithT = days.filter((day) => {
-    return day.charAt(0) == 'T';
-  });
 
-console.log(dayStartWithT);
+const object = new Object();
+object.number = 42;
 
+console.log(object.hasOwnProperty('number'));
+// expected output: true
 
-// [ 'Tuesday', 'Thursday' ]
+console.log(object.hasOwnProperty('toString'));
+// expected output: false
+
+console.log(object.hasOwnProperty('hasOwnProperty'));
+// expected output: false
