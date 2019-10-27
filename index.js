@@ -87,17 +87,36 @@
 // .join()
 
 
-let  elements = ['Fire', 'Air', 'Water'];
+// let  elements = ['Fire', 'Air', 'Water'];
 
-console.log(elements.join());
-// expected output: Fire,Air,Water
+// console.log(elements.join());
+// // expected output: Fire,Air,Water
 
-console.log(elements.join(''));
-// expected output: FireAirWater
+// console.log(elements.join(''));
+// // expected output: FireAirWater
 
-console.log(elements.join('-'));
-// expected output: Fire-Air-Water
+// console.log(elements.join('-'));
+// // expected output: Fire-Air-Water
 
 
-console.log(elements.join(' '));
-// expected output: FireAirWater
+// console.log(elements.join(' '));
+// // expected output: Fire Air Water
+
+
+
+// 
+// String.prototype.concat()
+// adding two strings 
+
+
+
+var str1 = 'Hello';
+var str2 = 'World';
+
+console.log(str1.concat(' ', str2));
+// expected output: "Hello World"
+
+console.log(str2.concat(' ', str1));
+// expected output: "World, Hello"
+
+console.log(str2.concat(' #hey, ', str1));
