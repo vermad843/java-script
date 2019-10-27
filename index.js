@@ -145,20 +145,38 @@
 // .join()
 
 
-let  elements = ['Fire', 'Air', 'Water'];
+// let  elements = ['Fire', 'Air', 'Water'];
 
-console.log(elements.join());
-// expected output: Fire,Air,Water
+// console.log(elements.join());
+// // expected output: Fire,Air,Water
 
-console.log(elements.join(''));
-// expected output: FireAirWater
+// console.log(elements.join(''));
+// // expected output: FireAirWater
 
-console.log(elements.join('-'));
-// expected output: Fire-Air-Water
-
-
-console.log(elements.join(' '));
-// expected output: Fire Air Water
+// console.log(elements.join('-'));
+// // expected output: Fire-Air-Water
 
 
+// console.log(elements.join(' '));
+// // expected output: Fire Air Water
 
+
+
+// 
+
+// use of slice()
+
+
+let str = 'The quick brown fox jumps over the lazy dog.';
+
+console.log(str.slice(31));//start with 31 index
+// expected output: "the lazy dog."
+
+console.log(str.slice(4, 19)); //start with 4th index till 19 index
+// expected output: "quick brown fox"
+
+console.log(str.slice(-4)); //give last 4 character from last
+// expected output: "dog."
+
+console.log(str.slice(-9, -5));//letters between -5 to -9 from last  
+// expected output: "lazy"
