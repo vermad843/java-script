@@ -110,13 +110,30 @@
 
 
 
-var str1 = 'Hello';
-var str2 = 'World';
+// var str1 = 'Hello';
+// var str2 = 'World';
 
-console.log(str1.concat(' ', str2));
-// expected output: "Hello World"
+// console.log(str1.concat(' ', str2));
+// // expected output: "Hello World"
 
-console.log(str2.concat(' ', str1));
-// expected output: "World, Hello"
+// console.log(str2.concat(' ', str1));
+// // expected output: "World, Hello"
 
-console.log(str2.concat(' #hey, ', str1));
+// console.log(str2.concat(' #hey, ', str1));
+
+
+
+// .match : it is a method 
+// Cache.match()
+
+// here it gives all the occurence of pizza 
+const checking = "milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza".match(/pizza/g);
+
+console.log(checking);
+
+
+// here it only gives the index of last occurring pizza 
+// which is  9 
+const checking1 = "milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza".match('pizza');
+
+console.log(checking1);
