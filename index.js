@@ -62,15 +62,23 @@
 
 var str = 'The quick brown fox jumps over the lazy dog.';
 
-// double space means a word
+
+
+// no space means a letter 
+var chars = str.split('');
+console.log(chars[8]);
+// expected output: "k"
+
+// single space means a word
 var words = str.split(' ');
 console.log(words[3]);
 // expected output: "fox"
 
-// single space means a letter 
-var chars = str.split('');
-console.log(chars[8]);
-// expected output: "k"
+// double space means copy the array 
+var space = str.split('  ');
+console.log(space)
+
+
 
 // copy the entire thing in an array
 var strCopy = str.split();
