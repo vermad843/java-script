@@ -49,9 +49,29 @@
 // // expected output: "The quick brown fox jumps over the lazy monkey. If the dog reacted, was it really lazy?"
 
 
-// new Regex
+// Regex
 
-var re = /(\w+)\s(\w+)/;
-var str = 'John Smith';
-var newstr = str.replace(re, '$2, $1');
-console.log(newstr);
+// var re = /(\w+)\s(\w+)/;
+// var str = 'John Smith';
+// var newstr = str.replace(re, '$2, $1');
+// console.log(newstr);
+
+
+// use case of String.prototype.split()
+// it returns the array 
+
+var str = 'The quick brown fox jumps over the lazy dog.';
+
+// double space means a word
+var words = str.split(' ');
+console.log(words[3]);
+// expected output: "fox"
+
+// single space means a letter 
+var chars = str.split('');
+console.log(chars[8]);
+// expected output: "k"
+
+// copy the entire thing in an array
+var strCopy = str.split();
+console.log(strCopy);
