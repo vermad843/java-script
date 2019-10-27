@@ -60,26 +60,40 @@
 // use case of String.prototype.split()
 // it returns the array 
 
-var str = 'The quick brown fox jumps over the lazy dog.';
+// var str = 'The quick brown fox jumps over the lazy dog.';
 
 
 
-// no space means a letter 
-var chars = str.split('');
-console.log(chars[8]);
-// expected output: "k"
+// // no space means a letter 
+// var chars = str.split('');
+// console.log(chars[8]);
+// // expected output: "k"
 
-// single space means a word
-var words = str.split(' ');
-console.log(words[3]);
-// expected output: "fox"
+// // single space means a word
+// var words = str.split(' ');
+// console.log(words[3]);
+// // expected output: "fox"
 
-// double space means copy the array 
-var space = str.split('  ');
-console.log(space)
+// // double space means copy the array 
+// var space = str.split('  ');
+// console.log(space)
 
 
 
-// copy the entire thing in an array
-var strCopy = str.split();
-console.log(strCopy);
+// // copy the entire thing in an array
+// var strCopy = str.split();
+// console.log(strCopy);
+
+// .join()
+
+
+let  elements = ['Fire', 'Air', 'Water'];
+
+console.log(elements.join());
+// expected output: Fire,Air,Water
+
+console.log(elements.join(''));
+// expected output: FireAirWater
+
+console.log(elements.join('-'));
+// expected output: Fire-Air-Water
