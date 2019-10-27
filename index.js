@@ -127,13 +127,38 @@
 // Cache.match()
 
 // here it gives all the occurence of pizza 
-const checking = "milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza".match(/pizza/g);
+// const checking = "milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza".match(/pizza/g);
 
-console.log(checking);
+// console.log(checking);
 
 
-// here it only gives the index of last occurring pizza 
-// which is  9 
-const checking1 = "milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza".match('pizza');
+// // here it only gives the index of last occurring pizza 
+// // which is  9 
+// const checking1 = "milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza".match('pizza');
 
-console.log(checking1);
+// console.log(checking1);
+
+
+
+//
+// 
+// .join()
+
+
+let  elements = ['Fire', 'Air', 'Water'];
+
+console.log(elements.join());
+// expected output: Fire,Air,Water
+
+console.log(elements.join(''));
+// expected output: FireAirWater
+
+console.log(elements.join('-'));
+// expected output: Fire-Air-Water
+
+
+console.log(elements.join(' '));
+// expected output: Fire Air Water
+
+
+
