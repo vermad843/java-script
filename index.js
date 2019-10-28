@@ -185,12 +185,27 @@
 //
 //  JavaScript String charCodeAt() Method
 
-var str = "abcdefghijklmnopqrstuvwxyz";
-var n = str.charCodeAt(0);
+// var str = "abcdefghijklmnopqrstuvwxyz";
+// var n = str.charCodeAt(0);
 
-console.log(n);//97
+// console.log(n);//97
 
 
-// a= 97, b = 98, c=99, d =100 and son on...
-// charCodeAt() == charCodeAt(0);
-// charCodeAt() - 96 = 1, charCodeAt(1) - 96 = 2 and so on...
+// // a= 97, b = 98, c=99, d =100 and son on...
+// // charCodeAt() == charCodeAt(0);
+// // charCodeAt() - 96 = 1, charCodeAt(1) - 96 = 2 and so on...
+
+
+// 
+// Number.prototype.toString()
+// gives a value in binary value : 0 and 1's.
+
+// (42).toString(2);     // "101010" (binary)
+// (13).toString(8);     // "15"     (octal)
+// (0x42).toString(10);  // "66"     (decimal)
+// (100000).toString(16) // "186a0"  (hexadecimal)
+
+
+const num = 42;
+const binaryValue = num.toString(2);
+console.log(binaryValue);
