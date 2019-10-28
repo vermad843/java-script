@@ -206,6 +206,29 @@
 // (100000).toString(16) // "186a0"  (hexadecimal)
 
 
-const num = 42;
-const binaryValue = num.toString(2);
-console.log(binaryValue);
+// const num = 42;
+// const binaryValue = num.toString(2);
+// console.log(binaryValue);
+
+
+// String.prototype.padStart()
+// padStart()
+
+const str1 = '5';
+
+console.log(str1.padStart(2, '0'));
+// expected output: "05"
+
+// (para1,para2) 
+// para1 => 2 means 2 numbers in counting;
+// para2 => add 0 inFront,so they become 2 numbers;
+
+
+
+const fullNumber = '2034399002125581';
+const last4Digits = fullNumber.slice(-4);
+const maskedNumber = last4Digits.padStart(fullNumber.length, '*');
+
+console.log(maskedNumber);
+// // expected output: "************5581"
+
