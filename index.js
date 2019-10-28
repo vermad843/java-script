@@ -214,21 +214,35 @@
 // String.prototype.padStart()
 // padStart()
 
-const str1 = '5';
+// const str1 = '5';
 
-console.log(str1.padStart(2, '0'));
-// expected output: "05"
+// console.log(str1.padStart(2, '0'));
+// // expected output: "05"
 
-// (para1,para2) 
-// para1 => 2 means 2 numbers in counting;
-// para2 => add 0 inFront,so they become 2 numbers;
+// // (para1,para2) 
+// // para1 => 2 means 2 numbers in counting;
+// // para2 => add 0 inFront,so they become 2 numbers;
 
 
 
-const fullNumber = '2034399002125581';
-const last4Digits = fullNumber.slice(-4);
-const maskedNumber = last4Digits.padStart(fullNumber.length, '*');
+// const fullNumber = '2034399002125581';
+// const last4Digits = fullNumber.slice(-4);
+// const maskedNumber = last4Digits.padStart(fullNumber.length, '*');
 
-console.log(maskedNumber);
-// // expected output: "************5581"
+// console.log(maskedNumber);
+// // // expected output: "************5581"
 
+
+
+// parseInt() ;
+// /parseInt(Value, radix)
+// radix()
+// If the radix parameter is omitted, JavaScript assumes the following:
+
+// If the string begins with "0x", the radix is 16 (hexadecimal)
+// If the string begins with "0", the radix is 8 (octal). This feature is deprecated
+// If the string begins with any other value, the radix is 10 (decimal)
+
+let value = '10000000';
+console.log(parseInt(value,2))
+// 128
