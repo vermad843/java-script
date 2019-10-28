@@ -189,3 +189,8 @@ var str = "abcdefghijklmnopqrstuvwxyz";
 var n = str.charCodeAt(0);
 
 console.log(n);//97
+
+
+// a= 97, b = 98, c=99, d =100 and son on...
+// charCodeAt() == charCodeAt(0);
+// charCodeAt() - 96 = 1, charCodeAt(1) - 96 = 2 and so on...
