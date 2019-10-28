@@ -243,6 +243,23 @@
 // If the string begins with "0", the radix is 8 (octal). This feature is deprecated
 // If the string begins with any other value, the radix is 10 (decimal)
 
-let value = '10000000';
-console.log(parseInt(value,2))
-// 128
+// let value = '10000000';
+// console.log(parseInt(value,2))
+// // 128
+
+
+
+
+//bitwise operator();
+// toString(2) for finding its binary value
+
+num = 5
+value = num.toString(2);
+console.log(value);//101
+console.log(5 & 13); // 0101 & 1101 = 0101
+// expected output: 5;
+
+
+console.log(5 | 13); // 0101 | 1101 = 1101
+// expected output: 13
+
