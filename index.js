@@ -186,6 +186,6 @@
 //  JavaScript String charCodeAt() Method
 
 var str = "abcdefghijklmnopqrstuvwxyz";
-var n = str.charCodeAt();
+var n = str.charCodeAt(0);
 
-console.log(n);
+console.log(n);//97
