@@ -167,16 +167,25 @@
 // use of slice()
 
 
-let str = 'The quick brown fox jumps over the lazy dog.';
+// let str = 'The quick brown fox jumps over the lazy dog.';
 
-console.log(str.slice(31));//start with 31 index
-// expected output: "the lazy dog."
+// console.log(str.slice(31));//start with 31 index
+// // expected output: "the lazy dog."
 
-console.log(str.slice(4, 19)); //start with 4th index till 19 index
-// expected output: "quick brown fox"
+// console.log(str.slice(4, 19)); //start with 4th index till 19 index
+// // expected output: "quick brown fox"
 
-console.log(str.slice(-4)); //give last 4 character from last
-// expected output: "dog."
+// console.log(str.slice(-4)); //give last 4 character from last
+// // expected output: "dog."
 
-console.log(str.slice(-9, -5));//letters between -5 to -9 from last  
-// expected output: "lazy"
+// console.log(str.slice(-9, -5));//letters between -5 to -9 from last  
+// // expected output: "lazy"
+
+
+//
+//  JavaScript String charCodeAt() Method
+
+var str = "abcdefghijklmnopqrstuvwxyz";
+var n = str.charCodeAt();
+
+console.log(n);
