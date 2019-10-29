@@ -253,26 +253,42 @@
 //bitwise operator();
 // toString(2) for finding its binary value
 
-num = 5
-value = num.toString(2);
-console.log(value);//101
-console.log(5 & 13); // 0101 & 1101 = 0101
-// expected output: 5;
+// num = 5
+// value = num.toString(2);
+// console.log(value);//101
+// console.log(5 & 13); // 0101 & 1101 = 0101
+// // expected output: 5;
 
 
-console.log(5 | 13); // 0101 | 1101 = 1101
-// expected output: 13
+// console.log(5 | 13); // 0101 | 1101 = 1101
+// // expected output: 13
 
 
-console.log(parseInt("0101",2) & parseInt("1101",2));
-// expected output: 5;
+// console.log(parseInt("0101",2) & parseInt("1101",2));
+// // expected output: 5;
 
-console.log(5 & 13 & 3); // 0101 & 1101 & 0011 = 0001
-// expected output: 1;
+// console.log(5 & 13 & 3); // 0101 & 1101 & 0011 = 0001
+// // expected output: 1;
 
 
-// comparing 0101 & 1101
-// 1 : true
-// 0 : false 
-// 1 & 0 => 0(false)
-//  1 | 0 =>1(true) 
+// // comparing 0101 & 1101
+// // 1 : true
+// // 0 : false 
+// // 1 & 0 => 0(false)
+// //  1 | 0 =>1(true) 
+
+
+// 
+
+var arr = [1, 2, 3, 4];
+
+// fill with 0 from position 2 until position 4
+console.log(arr.fill(0, 2, 4));
+// expected output: [1, 2, 0, 0]
+
+// fill with 5 from position 1
+console.log(arr.fill(5, 1));
+// expected output: [1, 5, 5, 5]
+
+console.log(arr.fill(6));
+// expected output: [6, 6, 6, 6]
