@@ -282,13 +282,16 @@
 
 var arr = [1, 2, 3, 4];
 
-// fill with 0 from position 2 until position 4
-console.log(arr.fill(0, 2, 4));
+// fill with 0 from index 2 
+console.log(arr.fill(0, 2));
 // expected output: [1, 2, 0, 0]
 
-// fill with 5 from position 1
+// fill with 5 from index 1
 console.log(arr.fill(5, 1));
 // expected output: [1, 5, 5, 5]
 
 console.log(arr.fill(6));
 // expected output: [6, 6, 6, 6]
+
+console.log(arr.fill(0));
+//[0, 0, 0, 0]
