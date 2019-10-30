@@ -338,13 +338,21 @@
 
 // 
 
-let str = 'Mozilla';
+// let str = 'Mozilla';
 
-// from  index 1 and  2 
-console.log(str.substr(1, 2));
-// expected output: "oz"
+// // from  index 1 and  2 
+// console.log(str.substr(1, 2));
+// // expected output: "oz"
 
-// from index 2 and  onwards 
-console.log(str.substr(2));
-// expected output: "zilla"
+// // from index 2 and  onwards 
+// console.log(str.substr(2));
+// // expected output: "zilla"
+
+
+// use of Array 
+// for something into array 
+
+let num = 1;
+console.log(Array(num));
+//[] empty array 
 
