@@ -331,9 +331,20 @@
 
 // endsWith()
 
-let str = "Hello world, welcome to the universe.";
-let n = str.endsWith("universe.");
-console.log(n);//true
+// let str = "Hello world, welcome to the universe.";
+// let n = str.endsWith("universe.");
+// console.log(n);//true
 
 
+// 
+
+let str = 'Mozilla';
+
+// from  index 1 and  2 
+console.log(str.substr(1, 2));
+// expected output: "oz"
+
+// from index 2 and  onwards 
+console.log(str.substr(2));
+// expected output: "zilla"
 
