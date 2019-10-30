@@ -280,18 +280,35 @@
 
 // 
 
-var arr = [1, 2, 3, 4];
+// var arr = [1, 2, 3, 4];
 
-// fill with 0 from index 2 
-console.log(arr.fill(0, 2));
-// expected output: [1, 2, 0, 0]
+// // fill with 0 from index 2 
+// console.log(arr.fill(0, 2));
+// // expected output: [1, 2, 0, 0]
 
-// fill with 5 from index 1
-console.log(arr.fill(5, 1));
-// expected output: [1, 5, 5, 5]
+// // fill with 5 from index 1
+// console.log(arr.fill(5, 1));
+// // expected output: [1, 5, 5, 5]
 
-console.log(arr.fill(6));
-// expected output: [6, 6, 6, 6]
+// console.log(arr.fill(6));
+// // expected output: [6, 6, 6, 6]
 
-console.log(arr.fill(0));
-//[0, 0, 0, 0]
+// console.log(arr.fill(0));
+// //[0, 0, 0, 0]
+
+
+
+
+// Math.max()
+
+
+console.log(Math.max(1, 3, 2));
+// expected output: 3
+
+console.log(Math.max(-1, -3, -2));
+// expected output: -1
+
+var array1 = [1, 3, 2];
+
+console.log(Math.max(...array1));
+// expected output: 3
