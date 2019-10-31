@@ -349,10 +349,29 @@
 // // expected output: "zilla"
 
 
+
+
 // use of Array 
 // for something into array 
 
-let num = 1;
-console.log(Array(num));
-//[] empty array 
+// let num = 1;
+// console.log(Array(num));
+// //[] empty array 
+
+
+
+// 
+
+
+let array1 = [true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true,  true ];
+
+const shorten = array1.filter(Boolean);
+console.log(shorten);//All true values only
+
+
 
