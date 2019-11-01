@@ -363,15 +363,23 @@
 // 
 
 
-let array1 = [true,  true,  true,  false,
-  true,  true,  true,  true ,
-  true,  false, true,  false,
-  true,  false, false, true ,
-  true,  true,  true,  true ,
-  false, false, true,  true ];
+// let array1 = [true,  true,  true,  false,
+//   true,  true,  true,  true ,
+//   true,  false, true,  false,
+//   true,  false, false, true ,
+//   true,  true,  true,  true ,
+//   false, false, true,  true ];
 
-const shorten = array1.filter(Boolean);
-console.log(shorten);//All true values only
+// const shorten = array1.filter(Boolean);
+// console.log(shorten);//All true values only
 
 
 
+// 
+// Math.abs()
+
+  function findDifference([i,j,k],[m,n,o]) {
+    return Math.abs(i*j*k - m*n*o); 
+ }
+ 
+ console.log(findDifference([3, 2, 5], [1, 4, 4]), 14);//14
