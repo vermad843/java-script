@@ -378,8 +378,19 @@
 // 
 // Math.abs()
 
-  function findDifference([i,j,k],[m,n,o]) {
-    return Math.abs(i*j*k - m*n*o); 
- }
+//   function findDifference([i,j,k],[m,n,o]) {
+//     return Math.abs(i*j*k - m*n*o); 
+//  }
  
- console.log(findDifference([3, 2, 5], [1, 4, 4]), 14);//14
+//  console.log(findDifference([3, 2, 5], [1, 4, 4]), 14);//14
+
+
+
+
+// 
+function getChar(c){
+    return String.fromCharCode(c);
+  }
+
+
+console.log(getChar(55),'7')
