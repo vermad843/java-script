@@ -13,6 +13,7 @@ const endWithCore = generes.filter((gener) => {
   return gener.includes('-core');
 });
 
+
 console.log(endWithCore);
 
 // [ 'metal-core', 'ska-core', 'country-core' ]
@@ -50,9 +51,6 @@ console.log(p.replace(regex, 'ferret'));
 
 console.log(p.replace('dog', 'monkey'));
 // expected output: "The quick brown fox jumps over the lazy monkey. If the dog reacted, was it really lazy?"
-
-
-
 
 
 
@@ -249,6 +247,7 @@ console.log(str5.padStart(2, '0'));
 // 
 const fullNumber = '2034399002125581';
 const last4Digits = fullNumber.slice(-4);
+console.log(last4Digits);
 const maskedNumber = last4Digits.padStart(fullNumber.length, '*');
 
 console.log(maskedNumber);
@@ -278,8 +277,8 @@ console.log(parseInt(value,2));// 128
 // bitwise operator();
 // toString(2) for finding its binary value
 
-let num = 5
-value = num.toString(2);
+let number = 5
+value = number.toString(2);
 console.log(value);//101
 console.log(5 & 13); // 0101 & 1101 = 0101
 // expected output: 5;
@@ -292,7 +291,7 @@ console.log(5 | 13); // 0101 | 1101 = 1101
 console.log(parseInt("0101",2) & parseInt("1101",2));
 // expected output: 5;
 
-console.log(5 & 13 & 3); // 0101 & 1101 & 0011 = 0001
+console.log(5 & 13 & 3);  // 0101 & 1101 & 0011 = 0001
 // expected output: 1;
 
 
@@ -413,7 +412,7 @@ console.log(shorten);//All true values only
 
 // Math.abs()
   function findDifference([i,j,k],[m,n,o]) {
-    return Math.abs(i*j*k - m*n*o); 
+    return Math.abs(i*j*k - m*n*o);
  }
  
  console.log(findDifference([3, 2, 5], [1, 4, 4]), 14);//14
@@ -429,6 +428,27 @@ function getChar(c){
 
 
 console.log(getChar(55),'7')//7
+
+
+
+
+// splice()
+
+
+var myFish = ['angel', 'clown', 'drum', 'mandarin', 'sturgeon'];
+var removed = myFish.splice(3, 1);
+
+
+console.log(removed);//["mandarin"]
+console.log(myFish);//["angel", "clown", "drum", "sturgeon"] 
+
+
+
+
+
+
+
+
 
 
 
