@@ -445,6 +445,14 @@ console.log(myFish);//["angel", "clown", "drum", "sturgeon"]
 
 
 
+// parsFloat()
+function circumference(r) {
+  return parseFloat(r) ;
+} 
+
+
+console.log(circumference('4.567'));//4.567(string to number)
+
 
 
 
