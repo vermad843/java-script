@@ -445,7 +445,7 @@ console.log(myFish);//["angel", "clown", "drum", "sturgeon"]
 
 
 
-// parsFloat()
+// parseFloat()
 function circumference(r) {
   return parseFloat(r) ;
 } 
@@ -455,7 +455,20 @@ console.log(circumference('4.567'));//4.567(string to number)
 
 
 
+// Math.ceil
 
+
+console.log(Math.ceil(.95));
+// expected output: 1
+
+console.log(Math.ceil(4));
+// expected output: 4
+
+console.log(Math.ceil(7.004));
+// expected output: 8
+
+console.log(Math.ceil(-7.004));
+// expected output: -7
 
 
 
